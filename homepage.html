@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="images/marille.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marille</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/homelogo.png" alt="Marille logo">
+        <h1>Marille</h1>
+        <hr>
+        <nav>
+            <a href="homepage.html" class = "hover">Home</a>
+            <a href="products.html" class = "hover">Products</a>
+            <a href="cart.html" class = "hover">Cart</a>
+            <a href="wishlist.html" class = "hover">Wishlist</a>
+            <a href="about.html" class = "hover">About</a>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="slider">
+            <div class="slides">
+                <div class="slide"><img src="images/slider2.jpeg" alt="Slider Image 1"></div>
+                <div class="slide"><img src="images/about-bag.jpg" alt="Slider Image 2"></div>
+                <div class="slide"><img src="images/slider3.jpeg" alt="Slider Image 3"></div>
+                <div class="slide"><img src="images/leatherbag.jpg" alt="Slider Image 1"></div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </section>
+        <section>
+            <h2 id="homeH2">Welcome to Marille</h2>
+            <p id="homeP">Your favorite place to buy bags!</p>
+            <a href="products.html" id="homeBtn">
+                <button class="cta">
+                    <span class="hover-underline-animation"> Shop now </span>
+                    <svg
+                        id="arrow-horizontal"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="30"
+                       height="10"
+                        viewBox="0 0 30 10"
+                    >
+                    <path
+                        id="Path_10"
+                        d="M0,5 L10,0 L10,10 Z"
+                    ></path>
+                    </svg>
+                </button>                  
+            </a>
+        </section>
+    </main>
+    <footer class="footer">
+        <div>
+            <p>&copy; Designed by LALAGUNA, CAMILLE PRECIOUS and BERUG, JOHN MARCO – BSIT-22M3 for ICT 008 Final Project.</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
